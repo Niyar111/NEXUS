@@ -1,33 +1,40 @@
 {
-  "name": "nexus-medication-system",
-  "private": true,
+  "name": "nexus-intelligent-medication-backend",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Nexus – Intelligent Medication System backend (Node.js, Express, MongoDB, Redis, JWT).",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
+  "keywords": [
+    "express",
+    "mongodb",
+    "redis",
+    "jwt",
+    "healthcare",
+    "medication-adherence"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0",
-    "axios": "^1.6.7",
-    "gsap": "^3.12.5",
-    "recharts": "^2.12.0",
-    "lucide-react": "^0.344.0"
+    "bcryptjs": "^2.4.3",
+    "bullmq": "^5.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.5.1",
+    "express-validator": "^7.0.1",
+    "firebase-admin": "^12.1.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "luxon": "^3.5.0",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0",
+    "redis": "^4.6.13",
+    "winston": "^3.13.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.56",
-    "@types/react-dom": "^18.2.19",
-    "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.18",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8.56.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5"
+    "nodemon": "^3.1.0"
   }
 }
