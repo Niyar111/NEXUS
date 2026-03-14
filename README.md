@@ -1,10 +1,10 @@
 # 🛡️ Nexus | Intelligent Medication System
 
-![Nexus Header](https://raw.githubusercontent.com/Niyar111/NEXUS/main/public/banner.png) **Nexus** is a modern medication adherence platform designed to bridge the gap between patients and caregivers. By combining smart scheduling, real-time reminders, and compliance analytics, Nexus ensures that "forgetting a dose" becomes a thing of the past.
+**Nexus** is a modern medication adherence platform designed to bridge the gap between patients and caregivers. By combining smart scheduling, real-time reminders, and compliance analytics, Nexus ensures that "forgetting a dose" becomes a thing of the past.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 ### 🕒 Smart Scheduling & Reminders
 - **Flexible Dosing:** Support for multiple daily doses (e.g., 08:00, 14:00, 20:00).
@@ -75,7 +75,7 @@ Code snippet
 VITE_API_URL=http://localhost:5000
 VITE_FIREBASE_KEY=your_key_here
 🗺️ Roadmap
-[ ] AI-based medication adherence prediction.
+[ ] Medication adherence prediction.
 
 [ ] Pharmacy refill reminders.
 
